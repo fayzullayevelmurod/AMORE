@@ -6,20 +6,20 @@ export const Amore = () => {
 				<h2 className="title-text">AMORE?</h2>
 				<div className="amore-content">
 					<div className="amore-content__box">
-						<h4 className='amore-content__title'>TITLE</h4>
-						<p className='amore-content__info'>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+						<h4 className='amore-content__title'>AMORE is your path to love and cryptocurrency</h4>
+						<p className='amore-content__info'>AMORE is a unique project that combines two powerful forces: human feelings and blockchain. We created this platform to help you express your emotions, support the community and even earn money with the $LOVE token. Welcome to a world where every match and every transaction becomes an act of love and care.</p>
 					</div>
 					<div className="amore-content__box">
-						<h4 className='amore-content__title'>TITLE</h4>
-						<p className='amore-content__info'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+						<h4 className='amore-content__title'>LOVE Match - Find Your Love and Earn Tokens</h4>
+						<p className='amore-content__info'>Our users can enjoy the exciting game "LOVE Match" where you can match with other members. Successful matches earn you $LOVE tokens that can be used within our ecosystem. It's fun, entertaining, and rewarding!</p>
 					</div>
 					<div className="amore-content__box">
-						<h4 className='amore-content__title'>TITLE</h4>
-						<p className='amore-content__info'>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<h4 className='amore-content__title'>Token $LOVE - Your Currency of Love and Unique Opportunities</h4>
+						<p className='amore-content__info'>The $LOVE token is not just a cryptocurrency, it is a symbol of your love and care. With it you can make gifts, support the community, exchange between members and even use unique NFT avatars. Your currency, your rules!</p>
 					</div>
 					<div className="amore-content__box">
-						<h4 className='amore-content__title'>TITLE</h4>
-						<p className='amore-content__info'>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+						<h4 className='amore-content__title'>Reflection of Love - Unique NFT Avatar</h4>
+						<p className='amore-content__info'>We give you the opportunity to use your own unique reflection of your love and personality in the form of an NFT avatar. You can mint NFT, making it truly yours. Join us to embody your individuality and raise a glass to love and cryptocurrency in the world of AMORE!</p>
 					</div>
 				</div>
 			</div>

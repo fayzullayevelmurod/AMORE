@@ -6,9 +6,9 @@ export const Intro = () => {
 		<div className='intro-section'>
 			<div className='container'>
 				<div className="intro-content pl-434">
-					<h2 className='intro-title'>Some text Some text Some text Some text Some text!</h2>
-					<p className='intro-info'>Some text Some text Some. </p>
-					<a className='intro-btn' href='#!'>What?</a>
+					<h2 className='intro-title'>Amore - Love with $LOVE</h2>
+					<p className='intro-info'>Love and blockchain in one game</p>
+					<a className='intro-btn' href='#!'>What is AMORE?</a>
 				</div>
 			</div>
 			<div className='intro-envelop__img'>

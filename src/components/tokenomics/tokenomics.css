@@ -1,0 +1,29 @@
+.tokenomics-section {
+	padding-bottom: 482px;
+	background-image: url(../../assets/cupid.png);
+	background-repeat: no-repeat;
+	background-size: auto 133%;
+	background-position: 0 -110px;
+	position: relative;
+}
+
+.tokenomics-section>.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tokenomics-section>.title .title-text {
+	margin-top: -20px;
+}
+
+.tokenomics-section .token-heart {
+	margin-left: 125px;
+}
+
+.tokenomics-section .tokenomics-heart {
+	position: absolute;
+	top: 188px;
+	right: 0;
+	transform: rotate(-14.739deg);
+}

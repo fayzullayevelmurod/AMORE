@@ -20,8 +20,12 @@ export const Header = () => {
 						<li className="nav-item">
 							<a href="#!" className="nav-link">FAQ</a>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item social-link">
 							<a href="#!" className="nav-link">SOCIALS</a>
+							<div className='socials-dropdown'>
+								<a href="#!">TELEGRAM</a>
+								<a href="#!">TWITTER</a>
+							</div>
 						</li>
 						<a className='get-valentine__btn' href="#!">
 							<img src={assets.getValintineIcon} alt="" />

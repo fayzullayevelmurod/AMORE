@@ -21,6 +21,40 @@
 	font-weight: 600;
 }
 
+/* .header .social link */
+.header .social-link {
+	position: relative;
+	overflow: hidden;
+}
+
+.header .social-link:hover {
+	overflow: visible;
+}
+
+.header .social-link:hover>.socials-dropdown {
+	bottom: -285%;
+}
+
+.header .social-link .socials-dropdown {
+	position: absolute;
+	bottom: -335%;
+	left: 0;
+	padding: 4px 5px 11px 7px;
+	right: 0;
+	width: 70px;
+	border-radius: 0px 0px 10px 10px;
+	background: var(--White, #F5F5F5);
+	transition: all 0.2s linear;
+}
+
+.header .social-link .socials-dropdown a {
+	color: var(--pink-20);
+	font-size: 10px;
+	line-height: normal;
+	font-weight: 600;
+}
+
+/* .header .social link */
 .header .get-valentine__btn {
 	color: var(--white);
 	font-size: 24px;

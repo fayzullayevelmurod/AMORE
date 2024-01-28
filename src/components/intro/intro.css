@@ -43,6 +43,7 @@
 	top: -73px;
 	right: 0;
 	height: 693px;
+	z-index: -1;
 }
 
 .intro-section .intro-envelop__img img {

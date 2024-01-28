@@ -21,13 +21,48 @@
 	font-weight: 600;
 }
 
-/* .header .nav-link:hover {
-	color: #FF69CC;
-} */
-
 .header .get-valentine__btn {
 	color: var(--white);
 	font-size: 24px;
 	font-weight: 700;
 	margin-left: 47px;
+}
+
+/* footer start */
+.footer {
+	background-image: url(../../assets/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 33px 0;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer .social-media {
+	display: flex;
+	align-items: center;
+	gap: 45px;
+}
+
+.footer .nav-list {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.footer nav {
+	background-image: url(../../assets/footer-box-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 53px 0;
+}
+
+.footer .nav-list .nav-link {
+	color: var(--purple);
+	font-size: 20px;
+	font-weight: 600;
 }

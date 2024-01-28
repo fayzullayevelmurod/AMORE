@@ -18,7 +18,10 @@ import heartTwo from './icons/heart-two.png';
 import tokenHeart from './icons/token-heart.png'
 import faqPapre from './faq-papre.png';
 import line from './icons/line.svg';
-
+import telgram from './icons/telegram.svg';
+import twitter from './icons/twitter.svg';
+import footerBoxBg from './footer-box-bg.png';
+import footerValintineIcon from './icons/footer-valintine.svg';
 
 export default {
 	amoreLogo,
@@ -40,5 +43,9 @@ export default {
 	tokenHeart,
 	heartTwo,
 	faqPapre,
-	line
+	line,
+	telgram,
+	twitter,
+	footerBoxBg,
+	footerValintineIcon
 }

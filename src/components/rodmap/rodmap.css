@@ -1,0 +1,45 @@
+.rodmap-section {
+	background-image: url(../../assets/paper-bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 234px 0 189px 52px;
+	padding: 0 162px 50px 0;
+}
+
+.rodmap-section>.title {
+	padding: 24px 0 52px 384px;
+}
+
+.rodmap-section .rodmap-content__box.rodmap-content__two {
+	margin: 0 0 0 auto;
+}
+
+.rodmap-section .rodmap-content__box {
+	background-image: url(../../assets/rodmap-box-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 533px;
+	margin: 0 auto;
+	padding: 34px 35px 29px 98px;
+	text-align: left;
+}
+
+.rodmap-section .rodmap-content__box>.title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.rodmap-section .rodmap-content__box .rodmap-content__title {
+	color: var(--purple);
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.rodmap-section .rodmap-content__info {
+	color: var(--grey);
+	font-size: 20px;
+	width: 400px;
+	font-weight: 400;
+}

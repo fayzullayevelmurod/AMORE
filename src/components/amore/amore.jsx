@@ -1,7 +1,7 @@
 import './amore.css'
 export const Amore = () => {
 	return (
-		<div className="amore-section">
+		<div className="amore-section pl-434">
 			<div className="title">
 				<h2 className="title-text">AMORE?</h2>
 				<div className="amore-content">

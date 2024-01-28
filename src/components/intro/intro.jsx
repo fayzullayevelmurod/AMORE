@@ -5,7 +5,7 @@ export const Intro = () => {
 	return (
 		<div className='intro-section'>
 			<div className='container'>
-				<div className="intro-content">
+				<div className="intro-content pl-434">
 					<h2 className='intro-title'>Some text Some text Some text Some text Some text!</h2>
 					<p className='intro-info'>Some text Some text Some. </p>
 					<a className='intro-btn' href='#!'>What?</a>

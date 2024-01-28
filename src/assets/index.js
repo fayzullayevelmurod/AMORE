@@ -8,6 +8,11 @@ import eros from './icons/eros.svg';
 import valentineBg from './valentine-content-bg.png';
 import arrow from './icons/arrow.svg';
 import getValintineIcon from './icons/get-valentine.png';
+import numberOne from './icons/number1.png'
+import numberTwo from './icons/number2.png'
+import numberThree from './icons/number3.png'
+import paperBg from './paper-bg.png';
+import rodmapBoxBg from './rodmap-box-bg.png';
 
 export default {
 	amoreLogo,
@@ -19,5 +24,10 @@ export default {
 	eros,
 	valentineBg,
 	arrow,
-	getValintineIcon
+	getValintineIcon,
+	numberOne,
+	numberTwo,
+	numberThree,
+	paperBg,
+	rodmapBoxBg
 }

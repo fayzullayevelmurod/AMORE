@@ -1,0 +1,33 @@
+/* header start */
+.header {
+	padding-top: 46px;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .nav-list {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.header .nav-link {
+	color: var(--white);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+/* .header .nav-link:hover {
+	color: #FF69CC;
+} */
+
+.header .get-valentine__btn {
+	color: var(--white);
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 47px;
+}

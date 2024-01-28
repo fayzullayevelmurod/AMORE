@@ -1,0 +1,80 @@
+/* valentine-section start */
+.valentine-section {
+	padding: 268px 0 182px;
+	/* background-image: url(../../assets/icons/hearts.svg);
+	background-repeat: no-repeat;
+	background-size: 30% 100%;
+	background-position: 0%; */
+	position: relative;
+}
+
+.valentine-section .hearts-group {
+	position: absolute;
+	top: -11%;
+	left: 0;
+	width: 512px;
+	height: 1016px;
+}
+
+.valentine-section .container {
+	position: relative;
+}
+
+.valentine-section .valentine-content {
+	margin-left: 391px;
+}
+
+.valentine-section .title-text {
+	margin-left: 44px;
+}
+
+.valentine-section .eros-img {
+	position: absolute;
+	bottom: 0;
+	right: -83px;
+}
+
+.valentine-card {
+	background-image: url(../../assets/valentine-content-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	max-width: 720px;
+	width: 100%;
+	margin-top: 17px;
+	text-align: center;
+	position: relative;
+	height: 428px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 46px;
+}
+
+.valentine-card .valentine-card__title {
+	color: var(--pink-20);
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.valentine-card .arrow-img {
+	position: absolute;
+	top: 46px;
+	left: -86px;
+	width: 156px;
+	height: 154px;
+}
+
+.valentine-card .arrow-img img,
+.valentine-card .heart-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.valentine-card .heart-img {
+	width: 130px;
+	height: 161px;
+	position: absolute;
+	top: -13px;
+	right: -80px;
+}

@@ -1,0 +1,29 @@
+.amore-section {
+	padding-left: 434px;
+}
+
+.amore-section .amore-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.amore-section .amore-content .amore-content__box:first-child,
+.amore-section .amore-content .amore-content__box:nth-child(3) {
+	margin-right: 41px;
+}
+
+.amore-section .amore-content .amore-content__box {
+	max-width: 400px;
+	color: #FFF;
+	margin-top: 25px;
+}
+
+.amore-section .amore-content .amore-content__title {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.amore-section .amore-content .amore-content__info {
+	font-size: 20px;
+	font-weight: 400;
+}

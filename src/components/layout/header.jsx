@@ -23,7 +23,9 @@ export const Header = () => {
 						<li className="nav-item">
 							<a href="#!" className="nav-link">SOCIALS</a>
 						</li>
-						<a className='get-valentine__btn' href="#!">Get Valentine</a>
+						<a className='get-valentine__btn' href="#!">
+							<img src={assets.getValintineIcon} alt="" />
+						</a>
 					</ul>
 				</nav>
 			</div>

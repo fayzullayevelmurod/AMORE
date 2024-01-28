@@ -7,6 +7,8 @@ import heart from './icons/heart.svg';
 import eros from './icons/eros.svg';
 import valentineBg from './valentine-content-bg.png';
 import arrow from './icons/arrow.svg';
+import getValintineIcon from './icons/get-valentine.png';
+
 export default {
 	amoreLogo,
 	logo,
@@ -16,5 +18,6 @@ export default {
 	heart,
 	eros,
 	valentineBg,
-	arrow
+	arrow,
+	getValintineIcon
 }

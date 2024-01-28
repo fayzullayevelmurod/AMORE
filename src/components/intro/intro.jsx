@@ -1,5 +1,5 @@
-import assets from '../assets';
-import './main.css';
+import assets from '../../assets';
+import './intro.css';
 
 export const Intro = () => {
 	return (

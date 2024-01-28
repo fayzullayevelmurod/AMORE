@@ -7,7 +7,7 @@
 	position: relative;
 }
 
-.tokenomics-section>.title {
+.tokenomics-section .title {
 	display: flex;
 	align-items: center;
 	justify-content: center;

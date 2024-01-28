@@ -16,6 +16,9 @@ import rodmapBoxBg from './rodmap-box-bg.png';
 import moneyHeart from './money-heart.png'
 import heartTwo from './icons/heart-two.png';
 import tokenHeart from './icons/token-heart.png'
+import faqPapre from './faq-papre.png';
+import line from './icons/line.svg';
+
 
 export default {
 	amoreLogo,
@@ -36,4 +39,6 @@ export default {
 	moneyHeart,
 	tokenHeart,
 	heartTwo,
+	faqPapre,
+	line
 }

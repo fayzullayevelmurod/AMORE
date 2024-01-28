@@ -1,0 +1,26 @@
+.faq-section {
+	background-image: url(../../assets/faq-papre.png);
+	background-repeat: no-repeat;
+	background-size: 510.856px 87%;
+	/* background-size: 40% 100%; */
+	background-position: 0 0;
+	padding: 116px 0 167px 0;
+}
+
+.faq-section .title {
+	margin-bottom: 43px;
+}
+
+.faq-section .faq-content__box .faq-content__title {
+	color: var(--white);
+	margin: 9px 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.faq-section .faq-content__box .faq-content__info {
+	color: #FFF;
+	width: 620px;
+	font-size: 15px;
+	font-weight: 400;
+}

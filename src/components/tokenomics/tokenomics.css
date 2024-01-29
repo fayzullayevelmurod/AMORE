@@ -27,3 +27,41 @@
 	right: 0;
 	transform: rotate(-14.739deg);
 }
+
+@media screen and (max-width: 768px) {
+	.tokenomics-section .token-heart {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.tokenomics-section .tokenomics-heart {
+		display: none;
+	}
+
+	.tokenomics-section {
+		background-size: auto 80%;
+		background-position: 0 286px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tokenomics-section {
+		padding-bottom: 0;
+		background-image: none;
+	}
+
+	.tokenomics-section .money-heart {
+		width: 83.093px;
+		height: 125px;
+	}
+
+	.tokenomics-section .token-heart {
+		width: 73.473px;
+		height: 75.202px;
+	}
+
+	.tokenomics-section .title {
+		gap: 10px;
+	}
+}

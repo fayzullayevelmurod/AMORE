@@ -14,8 +14,8 @@ export const Main = () => {
 				<Amore />
 				<Rodmap />
 			</div>
-			{/* <Tokenomics /> */}
-			{/* <Faq /> */}
+			<Tokenomics />
+			<Faq />
 		</main>
 	)
 }

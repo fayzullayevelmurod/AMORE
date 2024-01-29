@@ -25,6 +25,10 @@
 	margin-left: 44px;
 }
 
+.media-arrow__img {
+	display: none;
+}
+
 .valentine-section .eros-img {
 	position: absolute;
 	bottom: 0;
@@ -199,11 +203,11 @@
 		height: 74px;
 		transform: rotate(-3.407deg);
 		top: -13px;
-		left: 3px;
+		left: 0;
 	}
 
 	.valentine-card .valentine-card__title:first-child {
-		margin-bottom: 20px;
+		margin-bottom: 20px !important;
 	}
 
 	.valentine-card .valentine-card__title {
@@ -215,7 +219,13 @@
 	.valentine-card__two {
 		width: 95%;
 		background-size: 100% 240px;
-		/* top: 30%;
-		position: relative; */
+	}
+
+	.desktop-arrow__img {
+		display: none;
+	}
+
+	.media-arrow__img {
+		display: block;
 	}
 }

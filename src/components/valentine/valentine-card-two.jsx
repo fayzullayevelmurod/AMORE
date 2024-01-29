@@ -4,7 +4,9 @@ import './valentine.css';
 export const ValentineCardTwo = ({ show }) => {
 	return (
 		<div className='valentine-card__two' style={{ display: show ? 'none' : 'flex' }}>
-			<h2>TWIT $AMORE</h2>
+			<button>
+				<h2>TWIT $AMORE</h2>
+			</button>
 		</div>
 	);
 };

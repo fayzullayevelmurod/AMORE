@@ -25,6 +25,8 @@ import footerBoxBg from './footer-box-bg.png';
 import footerValintineIcon from './icons/footer-valintine.svg';
 import getValintineBgHeart from './icons/get-valintine-bg-heart.png';
 import mediaEnvelop from './media-envelop.png';
+import mediaArrow from './icons/media-arrow.svg';
+import bestIcon from './icons/best.svg';
 
 export default {
 	amoreLogo,
@@ -53,5 +55,7 @@ export default {
 	footerValintineIcon,
 	numberFour,
 	getValintineBgHeart,
-	mediaEnvelop
+	mediaEnvelop,
+	mediaArrow,
+	bestIcon
 }

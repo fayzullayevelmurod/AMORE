@@ -12,6 +12,9 @@ export const Footer = () => {
 							<img src={assets.telgram} alt="telegram" />
 						</a>
 						<a href="#!">
+							<img src={assets.bestIcon} alt="best icon" />
+						</a>
+						<a href="#!">
 							<img src={assets.twitter} alt="twitter" />
 						</a>
 					</div>

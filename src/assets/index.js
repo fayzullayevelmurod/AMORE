@@ -24,6 +24,7 @@ import twitter from './icons/twitter.svg';
 import footerBoxBg from './footer-box-bg.png';
 import footerValintineIcon from './icons/footer-valintine.svg';
 import getValintineBgHeart from './icons/get-valintine-bg-heart.png';
+import mediaEnvelop from './media-envelop.png';
 
 export default {
 	amoreLogo,
@@ -51,5 +52,6 @@ export default {
 	footerBoxBg,
 	footerValintineIcon,
 	numberFour,
-	getValintineBgHeart
+	getValintineBgHeart,
+	mediaEnvelop
 }

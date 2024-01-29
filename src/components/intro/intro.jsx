@@ -4,6 +4,9 @@ import './intro.css';
 export const Intro = () => {
 	return (
 		<div className='intro-section'>
+			<div className='media-envelope__img'>
+				<img src={assets.mediaEnvelop} alt="media envelope" />
+			</div>
 			<div className='container'>
 				<div className="intro-content pl-434">
 					<h2 className='intro-title'>Amore - Love with $LOVE</h2>

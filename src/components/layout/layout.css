@@ -227,4 +227,8 @@
 	.footer .media-bg__box {
 		padding: 45px 0;
 	}
+
+	.footer .social-media {
+		gap: 18px;
+	}
 }

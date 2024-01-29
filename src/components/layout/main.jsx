@@ -9,13 +9,13 @@ export const Main = () => {
 	return (
 		<main className="main">
 			<Intro />
-			{/* <GetValentine /> */}
-			{/* <div className="container">
+			<GetValentine />
+			<div className="container">
 				<Amore />
-				<Rodmap />
+				{/* <Rodmap /> */}
 			</div>
-			<Tokenomics />
-			<Faq /> */}
+			{/* <Tokenomics /> */}
+			{/* <Faq /> */}
 		</main>
 	)
 }

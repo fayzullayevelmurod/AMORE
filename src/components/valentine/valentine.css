@@ -93,3 +93,129 @@
 	font-size: 48px;
 	font-weight: 700;
 }
+
+/* media query start */
+@media screen and (max-width: 1250px) {
+	.valentine-section .valentine-content {
+		margin-left: 124px;
+	}
+
+	.valentine-section .title-text {
+		color: var(--pink-20) !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.valentine-section .hearts-group {
+		top: 0;
+		height: 100%;
+	}
+
+	.valentine-section .hearts-group>img {
+		height: 100%;
+	}
+
+	.valentine-card__two {
+		width: 70%;
+	}
+
+	.valentine-section .valentine-content,
+	.valentine-section .title-text {
+		margin-left: 0;
+	}
+
+	.valentine-card .arrow-img {
+		left: -35px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.valentine-card .heart-img {
+		width: 110px;
+		height: 141px;
+		top: -45px;
+		right: -35px;
+	}
+
+	.valentine-card__two h2 {
+		font-size: 38px;
+		width: 232px;
+	}
+
+	.valentine-section .eros-img {
+		transform: rotate(31deg);
+		bottom: -52px;
+		width: 200px;
+		height: 210px;
+		right: -21px;
+	}
+
+	.valentine-card .arrow-img {
+		top: -25px;
+		width: 115px;
+		height: 135px;
+		left: -20px;
+	}
+
+	.valentine-section {
+		padding: 110px 0 103px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.valentine-section .hearts-group {
+		display: none;
+	}
+
+	.valentine-section .title-text {
+		color: var(--white) !important;
+		text-align: center;
+	}
+
+	.valentine-card {
+		margin-top: 32px;
+		height: 352px;
+		max-width: 100%;
+		padding: 65px 0 45px 0;
+	}
+
+	.valentine-card .heart-img {
+		width: 62px;
+		height: 77px;
+		top: -7px;
+		right: -11px;
+	}
+
+	.valentine-section .eros-img {
+		width: 120px;
+		height: 142px;
+		bottom: -35px;
+		right: 13px;
+	}
+
+	.valentine-card .arrow-img {
+		width: 75px;
+		height: 74px;
+		transform: rotate(-3.407deg);
+		top: -13px;
+		left: 3px;
+	}
+
+	.valentine-card .valentine-card__title:first-child {
+		margin-bottom: 20px;
+	}
+
+	.valentine-card .valentine-card__title {
+		font-size: 38px;
+		width: 208px;
+		margin: 0 auto;
+	}
+
+	.valentine-card__two {
+		width: 95%;
+		background-size: 100% 240px;
+		/* top: 30%;
+		position: relative; */
+	}
+}

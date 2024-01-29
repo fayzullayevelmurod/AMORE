@@ -2,7 +2,7 @@ import assets from "../../assets"
 import './tokenomics.css'
 export const Tokenomics = () => {
 	return (
-		<div className="tokenomics-section">
+		<div className="tokenomics-section" id="tokenomics">
 			<div className="container">
 				<div className="title">
 					<img className="money-heart" src={assets.moneyHeart} alt="money heart img" height='162' />

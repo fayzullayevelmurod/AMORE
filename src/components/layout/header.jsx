@@ -12,13 +12,13 @@ export const Header = () => {
 				<nav>
 					<ul className='nav-list'>
 						<li className="nav-item">
-							<a href="#!" className="nav-link">ROADMAP</a>
+							<a href="#rodmap" className="nav-link">ROADMAP</a>
 						</li>
 						<li className="nav-item">
-							<a href="#!" className="nav-link">TOKENOMICS</a>
+							<a href="#tokenomics" className="nav-link">TOKENOMICS</a>
 						</li>
 						<li className="nav-item">
-							<a href="#!" className="nav-link">FAQ</a>
+							<a href="#faq" className="nav-link">FAQ</a>
 						</li>
 						<li className="nav-item social-link">
 							<a href="#!" className="nav-link">SOCIALS</a>

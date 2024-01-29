@@ -7,6 +7,7 @@
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -33,9 +34,11 @@ ol {
 	margin: 0;
 	padding-left: 0;
 }
+
 li {
 	list-style: none;
 }
+
 a {
 	display: inline-block;
 	text-decoration: none;
@@ -61,6 +64,7 @@ body {
 .title .title-text__pink {
 	color: #FF69CC;
 }
+
 .pl-434 {
 	padding-left: 434px;
 }
@@ -76,4 +80,18 @@ body {
 
 .main {
 	min-height: calc(100vh - 190px - 230px);
+}
+
+@media screen and (max-width: 1380px) {
+	.container {
+		max-width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background-image: url(./assets/media-bg.png);
+	}
 }

@@ -1,10 +1,6 @@
 /* valentine-section start */
 .valentine-section {
 	padding: 268px 0 182px;
-	/* background-image: url(../../assets/icons/hearts.svg);
-	background-repeat: no-repeat;
-	background-size: 30% 100%;
-	background-position: 0%; */
 	position: relative;
 }
 
@@ -77,4 +73,22 @@
 	position: absolute;
 	top: -13px;
 	right: -80px;
+}
+
+.valentine-card__two {
+	background-image: url(../../assets/icons/get-valintine-bg-heart.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 516px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.valentine-card__two h2 {
+	color: var(--pink-20);
+	font-size: 48px;
+	font-weight: 700;
 }

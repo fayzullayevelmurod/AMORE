@@ -3,7 +3,7 @@ import './rodmap.css';
 
 export const Rodmap = () => {
 	return (
-		<div className='rodmap-section'>
+		<div className='rodmap-section' id='rodmap'>
 			<div className="title">
 				<h2 className="title-text__pink">ROADMAP</h2>
 			</div>

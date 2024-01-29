@@ -12,7 +12,7 @@ export const Main = () => {
 			<GetValentine />
 			<div className="container">
 				<Amore />
-				{/* <Rodmap /> */}
+				<Rodmap />
 			</div>
 			{/* <Tokenomics /> */}
 			{/* <Faq /> */}

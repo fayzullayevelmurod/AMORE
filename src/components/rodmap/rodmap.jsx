@@ -58,7 +58,7 @@ export const Rodmap = () => {
 			<div className="rodmap-content">
 				<div className="rodmap-content__box rodmap-content__two">
 					<div className="title">
-						<img src={assets.numberThree} alt="number two" />
+						<img src={assets.numberFour} alt="number two" />
 						<h2 className='rodmap-content__title'>TITLE</h2>
 					</div>
 					<p className='rodmap-content__info'>

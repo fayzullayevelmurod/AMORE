@@ -4,7 +4,7 @@
 }
 
 .policy_page {
-    height: 100vh;
+    height: 100%;
     padding: 16px 0 73px 0;
     background-image: url('../policy_bg.png');
     background-size: cover;

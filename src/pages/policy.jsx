@@ -6,7 +6,7 @@ import heart from '../assets/heart_mini.png'
 
 export const Policy = () => {
 	return (
-		<div className="wrapper policy_page">
+		<div className=" policy_page">
 			<header>
 				<div className="container">
 					<a className='header-log' href='#!'>

@@ -1,10 +1,14 @@
 
+import React, { useState, useEffect } from 'react';
 import '../assets/css/main.css'
 import policy_circle from '../assets/policy_circle.png'
 import logoTwo from '../assets/icons/logo-two.svg'
 import heart from '../assets/heart_mini.png'
 
 export const Policy = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<div className=" policy_page">
 			<header>

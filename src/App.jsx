@@ -1,12 +1,14 @@
-import { Footer, Header } from "./components/layout"
-import { Main } from "./components/layout/main"
+import { Home } from "./pages/home"
+import { Policy } from "./pages/policy"
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 export const App = () => {
 	return (
-		<div className="wrapper">
-			<Header />
-			<Main />
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/policy" element={<Policy />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }

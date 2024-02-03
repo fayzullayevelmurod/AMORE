@@ -1,6 +1,7 @@
 import './team.css';
 import policy_circle from '../../assets/policy_circle.png'
 import hearts_team from '../../assets/hearts_team.png'
+import { Link } from 'react-router-dom'
 
 export const Team = () => {
 	return (
@@ -8,10 +9,12 @@ export const Team = () => {
             <img className='team_left' src={hearts_team} alt="" />
             <div className="container">
                 <div className="policy_circle">
-                    <img src={policy_circle} alt="amore logo" />
-                    <h6>
-                        ДИСКЛЕЙМЕР
-                    </h6>
+                    <Link to="/policy">
+                        <img src={policy_circle} alt="amore logo" />
+                        <h6>
+                            ДИСКЛЕЙМЕР
+                        </h6>
+                    </Link>
                 </div>
                 <div className="tema_section">
                     <div className="team_right">
